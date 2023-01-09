@@ -67,7 +67,6 @@ const Details = () => {
           <th> Select Country</th> 
           <th> Mobile Number</th> 
           <th>Email</th>
-          <th>Dates</th>
           <th>Password</th>
           <th>Referral Id </th>
         </tr>
@@ -79,7 +78,6 @@ const Details = () => {
           <td>{logindata[0].country}</td>
           <td>{logindata[0].mobilenumber}</td>
           <td>{logindata[0].email}</td>
-          <td>{logindata[0].date}</td>
           <td>{logindata[0].password}</td>
           <td>{logindata[0].referralid}</td>
 
